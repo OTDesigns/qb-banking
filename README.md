@@ -23,7 +23,7 @@
 - [qb-logs](https://github.com/qbcore-framework/qb-logs) - For keeping records
 
 ## Screenshots
-![Account Home](https://imgur.com/a/P1SDQHs.png)
+![Account Home](https://imgur.com/Avlqr9s.png)
 ![Debit Card Selection on ATM](https://imgur.com/e7c7toP.png)
 ![Savings Account](https://i.imgur.com/1HFUL06.png)
 ![Transfer](https://imgur.com/fBt8f8R.png)
