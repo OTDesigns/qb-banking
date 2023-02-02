@@ -35,7 +35,7 @@ Config.Zones = {
         minZ = 35.89, maxZ = 39.89
     },
     [7] = {
-        position = vector3(247.65, 223.87, 106.29),
+        position = vector3(258.23, 226.69, 106.28),
         length = 15.8, width = 2.0, heading = 250,
         minZ = 104.49, maxZ = 108.49
     },

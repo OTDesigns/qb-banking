@@ -10,7 +10,7 @@ body {
 }
 
 #bankingContainer {
-    background: #444444 !important;
+    background: #411665!important;
     border-radius: 7px;
     min-height: 800px;
     max-height: 810px;
@@ -23,11 +23,11 @@ body {
     min-height: 800px;
     max-height: 800px;
     display: none;
-    border: 2px solid red;
+    border: 2px solid #d70029;
 }
 
 .statement:hover {
-    background: rgba(150, 149, 149, 0.5) !important;
+    background: #411665 !important;
 }
 
 #v-pills-tabContent,
@@ -60,7 +60,7 @@ body {
     color: white;
     margin-bottom: 15px;
     font-weight: bolder;
-    border-left: 2px solid red;
+    border-left: 2px solid #411665;
 }
 
 .content {
@@ -71,24 +71,31 @@ body {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: rgb(255, 255, 255);
-    background-color: #DC143C;
+    background-color: #411665;
 }
 
 .btn-primary {
     color: rgb(255, 255, 255);
-    background-color: #DC143C;
+    background-color: #411665;
     border-color: transparent;
 }
 
 .btn-primary:hover {
     color: rgb(255, 255, 255);
-    background-color: rgb(90, 98, 104);
-    border-color: rgb(84, 91, 98);
+    background-color: rgb(162, 4, 28);
+    border-color: rgb(162, 4, 28);
 }
 
 .btn-secondary {
     color: rgb(255, 255, 255);
-    background-color: #28a745;
+    background-color: #a60423;
+    border-color: transparent;
+}
+
+.btn-secondary:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(65, 22, 101);
+    border-color: rgb(65, 22, 101);
 }
 
 .small,
@@ -98,5 +105,5 @@ small {
 }
 
 #savingsBalance {
-    color: #28a745;
+    color: #d70029;
 }
