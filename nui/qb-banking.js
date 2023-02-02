@@ -145,13 +145,13 @@ function setupSavingsMenu(data, name)
             withdraw = statement.withdraw
         }
         if (statement.balance == 0) {
-            balance = '<span class="text-dark">$' + statement.balance + '</span>';
+            balance = '<span class="text-dark">£' + statement.balance + '</span>';
         } else if(statement.balance > 0) {
-            balance = '<span class="text-success">$' + statement.balance + '</span>';
+            balance = '<span class="text-success">£' + statement.balance + '</span>';
         } else {
-            balance = '<span class="text-danger">$' + statement.balance + '</span>';
+            balance = '<span class="text-danger">£' + statement.balance + '</span>';
         }
-        $("#savingsStatementContents").append('<tr class="statement"><td><small>' + statement.date + '</small></td><td><small>' + statement.type + '</small></td><td class="text-center text-danger"><small>$' + withdraw + '</small></td><td class="text-center text-success"><small>$' + deposit + '</small></td><td class="text-center"><small>' + balance + '</small></td></tr>');
+        $("#savingsStatementContents").append('<tr class="statement"><td><small>' + statement.date + '</small></td><td><small>' + statement.type + '</small></td><td class="text-center text-danger"><small>£' + withdraw + '</small></td><td class="text-center text-success"><small>£' + deposit + '</small></td><td class="text-center"><small>' + balance + '</small></td></tr>');
 
     });
 
@@ -216,13 +216,13 @@ function populateBanking(data)
             withdraw = statement.withdraw
         }
         if (statement.balance == 0) {
-            balance = '<span class="text-dark">$' + statement.balance + '</span>';
+            balance = '<span class="text-dark">£' + statement.balance + '</span>';
         } else if (statement.balance > 0) {
-            balance = '<span class="text-success">$' + statement.balance + '</span>';
+            balance = '<span class="text-success">£' + statement.balance + '</span>';
         } else {
-            balance = '<span class="text-danger">$' + statement.balance + '</span>';
+            balance = '<span class="text-danger">£' + statement.balance + '</span>';
         }
-        $("#currentStatementContents").append('<tr class="statement"><td><small>' + statement.date + '</small></td><td><small>' + statement.type + '</small></td><td class="text-center text-danger"><small>$' + withdraw + '</small></td><td class="text-center text-success"><small>$' + deposit + '</small></td><td class="text-center"><small>' + balance + '</small></td></tr>');
+        $("#currentStatementContents").append('<tr class="statement"><td><small>' + statement.date + '</small></td><td><small>' + statement.type + '</small></td><td class="text-center text-danger"><small>£' + withdraw + '</small></td><td class="text-center text-success"><small>£' + deposit + '</small></td><td class="text-center"><small>' + balance + '</small></td></tr>');
 
     });
 
@@ -432,7 +432,7 @@ $(function() {
             // Error Daily Limit Hit.
             $("#successMessageATM").removeClass('alert-success').addClass('alert-danger');
             $("#successRowATM").css({"display":"block"});
-            $("#successMessageATM").html('Sorry you have reached the Daily Withdraw limit of $' + Config.ATMTransLimit + ' for the day, please use a branch if you need money sooner.');
+            $("#successMessageATM").html('Sorry you have reached the Daily Withdraw limit of £' + Config.ATMTransLimit + ' for the day, please use a branch if you need money sooner.');
         }
     });
 
