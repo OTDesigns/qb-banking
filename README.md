@@ -25,7 +25,7 @@
 ## Screenshots
 ![Account Home](https://imgur.com/Avlqr9s.png)
 ![Debit Card Selection on ATM](https://imgur.com/e7c7toP.png)
-![Savings Account](https://i.imgur.com/1HFUL06.png)
+![Savings Account](https://imgur.com/6JV6KRy.png)
 ![Transfer](https://imgur.com/fBt8f8R.png)
 ![Account Options](https://imgur.com/TbGQkR3.png)
 
